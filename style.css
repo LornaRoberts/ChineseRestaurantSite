@@ -1,0 +1,93 @@
+body{
+    text-align: center!important;
+    background-color: black;
+}
+
+.push{
+    text-align: right;
+}
+
+.navbar{
+    background-color: black!important;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 1em;
+      }
+
+#top-bar{
+    display: flex;
+    float: none;
+    text-align: center!important;
+}
+
+.nav-link {
+    justify-content: right;
+}
+
+.navbar-brand{
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 2em;
+}
+
+.main-pic{
+    height: 40vh;
+    overflow: hidden;
+}
+
+.bottom-menu{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'East Sea Dokdo', cursive;
+    }
+
+#careers{
+    font-size: 0.9em!important;
+}
+
+.lanterns{
+    height: 40vh;
+
+}
+
+.padding1{
+    
+    
+}
+
+a :hover{
+
+color: red;
+}
+
+a {
+    color: white!important;
+    text-decoration: none!important;
+}
+@media only screen and (min-width: 700px){
+
+    .padding1{
+      
+      padding:3em;
+    }
+
+.bottom-menu{
+    font-size: 2em;
+}
+
+}
+
+@media only screen and (min-width: 1000px){
+
+    .lanterns{
+        height: 50vh;
+    }
+
+    .bottom-menu{
+        font-size: 3em;
+    }
+
+    .navbar-brand{
+        font-size: 3em;
+    }
+}
