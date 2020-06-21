@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -19,26 +18,27 @@
 
     <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="top-bar">
         
-        <a class="navbar-brand" href="#">The Ludong</a>
+        <button class="navbar-brand btn-dark" onclick="reload()">The Ludong</button>
        
         
       </nav>
-
-      <img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1592684095/Chinese%20Restaurant/ludong.jpg" 
-      alt="red lanterns" class="lanterns">
+      <div class="container mx-auto d-block">
+      <div id="changetotext"><img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1592684095/Chinese%20Restaurant/ludong.jpg" 
+      alt="red lanterns" id="lanterns"></div>
+        
   
 <div class="padding1"></div>
 
   <div class="bottom-menu d-flex flex-column flex-md-row justify-content-around flex-wrap">
-    <a href=""><div class="p-2">Menu</div></a>
-    <a href=""><div class="p-2">Approach</div></a>
-      <a href=""><div class="p-2">Location</div></a>
-        <a href=""><div class="p-2">Reservations</div></a>
-          <a href=""> <div class="p-2">Gifts</div></a>
-  </div>
+    <button class="p-2 menuChoice btn btn-outline-light" onclick="menu()">Menu</button>
+    <button class="p-2 approachchoice btn btn-outline-light" onclick="approach()">Approach</button>
+     <button class="p-2 locationchoice btn btn-outline-light" onclick="location1()">Location</button>
+        <button class="p-2 reservationschoice btn btn-outline-light" onclick="reserve()">Reservations</button>
+          <button class="p-2 giftschoice btn btn-outline-light" onclick="gifting1()">Gifts</button>
+  
 </div>
 
-
+</div>
 
   <nav class="navbar bg-dark navbar-dark navbar-expand mx-auto fixed-bottom" id="careers">
     <ul class="navbar-nav mx-auto">
@@ -54,7 +54,7 @@
       </ul>
   </nav>
 
-  <script src="js/scripts.js"></script>
+  <script src="myscripts.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
